@@ -1,9 +1,12 @@
 {
-  "dependencies": {
-    "lodash": "4.17.5"
+  "scripts": {
+    "tsc:hello": "tsc --project tsconfig.json",
+    "tsc:hello-global": "tsc --project tsconfig-global.json",
+    "run:hello": "ts-node hello.ts",
+    "run:hello-global": "ts-node hello-global.ts"
   },
   "devDependencies": {
-    "@types/lodash": "4.14.106",
+    "@types/node": "^10.11.3",
     "ts-node": "7.0.0",
     "typescript": "3.0.1"
   }
