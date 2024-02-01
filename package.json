@@ -6,8 +6,8 @@
     "run:hello-global": "ts-node hello-global.ts"
   },
   "devDependencies": {
-    "@types/node": "^10.11.3",
+    "@types/node": "10.11.3",
     "ts-node": "7.0.0",
-    "typescript": "3.0.1"
+    "typescript": "5.3.3"
   }
 }
